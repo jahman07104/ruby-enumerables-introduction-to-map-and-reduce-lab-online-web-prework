@@ -31,7 +31,6 @@ end
 
 
   return new_array
-end
 
 def reduce_to_total(array,starting_point=0)
   new =starting_point
