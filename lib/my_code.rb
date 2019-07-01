@@ -29,9 +29,6 @@ def map_to_double(array)
   return new_array
 end
 
-
-  return new_array
-
 def reduce_to_total(array,starting_point=0)
   new =starting_point
   counter=0 
