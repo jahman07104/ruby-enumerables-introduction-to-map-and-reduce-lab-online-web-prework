@@ -28,7 +28,15 @@ def map_to_double(array)
   end 
   return new_array
 end
-
+def map_to_square(array)
+  new_array=[]
+  counter=0
+  while counter < array.length do
+    new_array << array[counter] **2
+    counter += 1
+  end 
+  return new_array
+end
 def reduce_to_total(array,starting_point=0)
   new =starting_point
   counter=0 
